@@ -61,18 +61,10 @@
         </outputArgument>
       </outputArguments>
     </caseCall>
-    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="3" title="Set Values: ">
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.Fail" name="Fail" testItemId="4" title="Fail Test: stepfailed">
       <arguments>
-        <argument id="values">
-          <value class="valueList" mutable="Mutable">
-            <namedValues mutable="Mutable">
-              <namedValue name="valuePath"/>
-              <namedValue name="value"/>
-              <namedValue name="valueScope">
-                <value class="value" valueClass="string">Test</value>
-              </namedValue>
-            </namedValues>
-          </value>
+        <argument id="message">
+          <value class="value" valueClass="string">stepfailed</value>
         </argument>
       </arguments>
     </apiCall>

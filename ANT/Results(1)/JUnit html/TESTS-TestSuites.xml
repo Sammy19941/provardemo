@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="0" hostname="ibm-samarthshekhar" id="0" name="ProvarPract/tests" package="" skipped="0" tests="9" time="481.482" timestamp="Wed Mar 02 18:28:32 IST 2022">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="INFO" />
+
+		      <property name="webBrowserType" value="Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="C:\Users\samarth.shekhar\Provar\Workspace2\ProvarPract\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Callable\Outputparameter.testcase" name="Outputparameter.testcase" time="143.1">
+	</testcase>
+
+	    <testcase classname="tests/Callable\UsingCallable.testcase" name="UsingCallable.testcase" time="39.53">
+	</testcase>
+
+	    <testcase classname="tests/Callable2\UsingCallable.testcase" name="UsingCallable.testcase" time="40.771">
+	</testcase>
+
+	    <testcase classname="tests/ConsoleTesting\ConsoleTesting.testcase" name="ConsoleTesting.testcase" time="131.603">
+	</testcase>
+
+	    <testcase classname="tests/EmailTesting\EmailTesting.testcase" name="EmailTesting.testcase" time="16.933">
+	</testcase>
+
+	    <testcase classname="tests/ExcelReadWrite\ReadAndWriteExcel.testcase" name="ReadAndWriteExcel.testcase" time="4.972">
+	</testcase>
+
+	    <testcase classname="tests/ExcelReadWrite\ReadAndWriteExcelForEachLoop.testcase" name="ReadAndWriteExcelForEachLoop.testcase" time="4.402">
+	</testcase>
+
+	    <testcase classname="tests/UiFill\UiFill.testcase" name="UiFill.testcase" time="54.557">
+	</testcase>
+
+	    <testcase classname="tests/UiTesting\UiTesting.testcase" name="UiTesting.testcase" time="3.811">
+	</testcase>
+
+  </testsuite>
+</testsuites>

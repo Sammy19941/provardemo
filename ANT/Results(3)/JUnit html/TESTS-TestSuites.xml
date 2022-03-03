@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="2" hostname="ibm-samarthshekhar" id="0" name="ProvarPract/tests" package="" skipped="0" tests="9" time="385.071" timestamp="Thu Mar 03 16:48:17 IST 2022">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="INFO" />
+
+		      <property name="webBrowserType" value="Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="C:\Users\samarth.shekhar\Provar\Workspace2\ProvarPract\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Callable\Outputparameter.testcase" name="Outputparameter.testcase" time="69.747">
+	</testcase>
+
+	    <testcase classname="tests/Callable\UsingCallable.testcase" name="UsingCallable.testcase" time="44.605">
+		      <failure message="Execution failed"><![CDATA[stepfailed]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Callable2\UsingCallable.testcase" name="UsingCallable.testcase" time="42.904">
+	</testcase>
+
+	    <testcase classname="tests/ConsoleTesting\ConsoleTesting.testcase" name="ConsoleTesting.testcase" time="107.218">
+		      <failure message="Execution failed"><![CDATA[Error doing interaction.  Connection Name: samarthAdmin, cause: [StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=98.0.4758.102)
+  (Driver info: chromedriver=98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 116 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'IBM-SAMARTHSHEK', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51273}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}), userDataDir=C:\Users\samarth.shekhar\Provar\Workspace2\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=98.0.4758.102, browserConnectionEnabled=false, proxy=Proxy(direct), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3d2ce8d6a012d03d6fc92dd4e7e3efd7]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/EmailTesting\EmailTesting.testcase" name="EmailTesting.testcase" time="20.197">
+	</testcase>
+
+	    <testcase classname="tests/ExcelReadWrite\ReadAndWriteExcel.testcase" name="ReadAndWriteExcel.testcase" time="13.526">
+	</testcase>
+
+	    <testcase classname="tests/ExcelReadWrite\ReadAndWriteExcelForEachLoop.testcase" name="ReadAndWriteExcelForEachLoop.testcase" time="7.851">
+	</testcase>
+
+	    <testcase classname="tests/UiFill\UiFill.testcase" name="UiFill.testcase" time="54.033">
+	</testcase>
+
+	    <testcase classname="tests/UiTesting\UiTesting.testcase" name="UiTesting.testcase" time="3.939">
+	</testcase>
+
+  </testsuite>
+</testsuites>

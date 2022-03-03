@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="1" hostname="ibm-samarthshekhar" id="0" name="ProvarPract/tests" package="" skipped="0" tests="1" time="53.655" timestamp="Thu Mar 03 16:56:25 IST 2022">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="INFO" />
+
+		      <property name="webBrowserType" value="Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="C:\Users\samarth.shekhar\Provar\Workspace2\ProvarPract\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Callable\UsingCallable.testcase" name="UsingCallable.testcase" time="48.91">
+		      <failure message="Execution failed"><![CDATA[stepfailed]]></failure>
+
+	    </testcase>
+
+  </testsuite>
+</testsuites>
